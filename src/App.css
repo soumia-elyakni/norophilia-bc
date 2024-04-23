@@ -1,7 +1,5 @@
-
-
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Poppins', sans-serif; */
@@ -13,91 +11,94 @@
   right: 3px;
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.079);
-  font-size: 16px; 
-  padding: 4px; 
+  font-size: 16px;
+  padding: 4px;
 }
 
 .language-selector .option {
-  background-color: transparent; 
+  background-color: transparent;
   padding: 0;
   margin: 0;
   padding-left: 1em;
   border: 2px solid #e5e5e5;
   box-sizing: border-box;
- } 
+}
 
 
- .background {
+.background {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  height: 100vh; /* Hauteur de l'écran */
-  background-size: cover; /* Redimensionner l'image pour couvrir tout le conteneur */
-  background-position: center; 
- 
- }
+  height: 100vh;
+  /* Hauteur de l'écran */
+  background-size: cover;
+  /* Redimensionner l'image pour couvrir tout le conteneur */
+  background-position: center;
 
- body{
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
-    /* Empêcher le scroll horizontal */
-    overflow-x: hidden;
-    
-    /* Empêcher le scroll vertical */
-    overflow-y: hidden;
-  }
+
+  /* Empêcher le scroll horizontal */
+  overflow-x: hidden;
+
+  /* Empêcher le scroll vertical */
+  overflow-y: hidden;
+}
 
 
 
-.App{
+.App {
   position: relative;
-  width : 350px;
-  height : 190px;
+  width: 350px;
+  height: 190px;
   background: #faf9f7;
   border-radius: 20px;
-  box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
   padding-top: 0%;
 
 }
 
-.App:hover{
+.App:hover {
   height: 450px;
 }
 
-.App:hover .header-component{
+.App:hover .header-component {
   width: 200px;
   height: 120px;
 }
 
-.header-component{
+.header-component {
   position: absolute;
   left: 50%;
-  top :-50px;
+  top: -50px;
   transform: translateX(-50%);
   width: 250px;
   height: 150px;
   background: #f1efeb;
   border-radius: 20px;
-  box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
   overflow: hidden;
-  transition: 0.5s ;
+  transition: 0.5s;
 }
-.header-component img{
+
+.header-component img {
   position: absolute;
-  top :0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 
-.card-content{
+.card-content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -110,18 +111,20 @@
   /* align-items: center; */
 }
 
-.App  .main-component .descriptionTxt {
+.App .main-component .descriptionTxt {
   transform: translateY(0);
-  opacity: 0; /* Le contenu est initialement invisible */
-  transition: transform 0.5s, opacity 0.5s; /* Ajout de transition pour le contenu */
+  opacity: 0;
+  /* Le contenu est initialement invisible */
+  transition: transform 0.5s, opacity 0.5s;
+  /* Ajout de transition pour le contenu */
   overflow: hidden;
 }
 
-.footer-component{
+.footer-component {
   overflow: hidden;
 }
 
-.App:hover .footer-component{
+.App:hover .footer-component {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -131,18 +134,20 @@
 }
 
 
-.App:hover .main-component .descriptionTxt, .App:hover .footer-component {
+.App:hover .main-component .descriptionTxt,
+.App:hover .footer-component {
   transform: translateY(0);
-  opacity: 1; /* Le contenu devient visible au survol */
+  opacity: 1;
+  /* Le contenu devient visible au survol */
 }
 
-.App:hover .main-component{
+.App:hover .main-component {
   transform: translateY(0px);
   padding-top: 40px;
 }
 
 
-.main-component h3{
+.main-component h3 {
   font-size: 1.25em;
   font-weight: 500;
   color: #ae7664;
@@ -155,20 +160,20 @@
 .data1 {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;  
+  margin: 20px 0;
 }
 
 .data2 {
   display: flex;
   justify-content: space-evenly;
   margin: 20px 0;
-  
+
 }
 
 
-.RS{
+.RS {
   font-size: 1em;
-  color : #555;
+  color: #555;
   line-height: 1.2em;
   font-weight: 600;
 }
@@ -186,6 +191,11 @@
   transition: 0.5s;
 }
 
+@media screen and (max-width: 500px) {
+  .main-component {
+    padding-top: 250px;
+  }
+}
 
 /* Animation pour la description */
 .main-component .descriptionTxt {
@@ -193,19 +203,24 @@
   font-weight: 250;
   color: rgb(83, 79, 79);
   line-height: 1.5em;
-  opacity: 0; /* Initialement caché */
-  transform: translateY(30px); /* Décalage vers le bas */
-  transition: opacity 0.5s, transform 0.5s; /* Animation fluide */
+  opacity: 0;
+  /* Initialement caché */
+  transform: translateY(30px);
+  /* Décalage vers le bas */
+  transition: opacity 0.5s, transform 0.5s;
+  /* Animation fluide */
 }
 
 /* Afficher la description lors du survol */
 .App:hover .main-component .descriptionTxt {
-  opacity: 1; /* Afficher la description au survol */
-  transform: translateY(0); /* Réinitialiser la transformation */
+  opacity: 1;
+  /* Afficher la description au survol */
+  transform: translateY(0);
+  /* Réinitialiser la transformation */
 }
 
 .App:hover .main-component h3 {
- margin-top: 5px
+  margin-top: 5px
 }
 
 .copyright {
@@ -223,12 +238,15 @@
 }
 
 .copyright p {
-  display: inline-block; /* Permet de limiter la largeur de la bordure */
-  padding: 5px 10px; /* Ajouter un peu d'espace autour du texte */
- 
-  text-shadow: 
-    -0.5px -0.5px 0 #fff,  
+  display: inline-block;
+  /* Permet de limiter la largeur de la bordure */
+  padding: 5px 10px;
+  /* Ajouter un peu d'espace autour du texte */
+
+  text-shadow:
+    -0.5px -0.5px 0 #fff,
     0.5px -0.5px 0 #fff,
     -0.5px 0.5px 0 #fff,
-    0.5px 0.5px 0 #fff; /* Ajouter une bordure blanche autour du texte */
+    0.5px 0.5px 0 #fff;
+  /* Ajouter une bordure blanche autour du texte */
 }
