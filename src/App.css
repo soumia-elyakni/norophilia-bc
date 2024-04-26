@@ -159,13 +159,13 @@ body {
 
 .data1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 20px 0;
 }
 
 .data2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 20px 0;
 
 }
@@ -191,9 +191,13 @@ body {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 660px) {
   .main-component {
     padding-top: 250px;
+  }
+
+  .diff{
+    padding-bottom: 113px;
   }
 }
 

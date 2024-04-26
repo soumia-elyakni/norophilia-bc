@@ -17,8 +17,8 @@ const Translations = {
         mainDescription:"Norophilia ile büyüleyici bir dünyayı keşfedin! Etkinlikler için öneriler sunuyor, hediyeleri tasarlıyor ve teslim ediyor, özel ve kişiselleştirilmiş ürünler üretiyoruz. Her anı unutulmaz kılmak için haydi!"
     },
     ar: {
-        mainTitle: "الهدية هي تعبير عن الحب",
-        mainDescription: "استكشف عالمًا رائعًا مع نوروفيليا، الذي يقدم نصائح للمناسبات والحفلات، ويصمم ويوصل الهدايا، ويصنع منتجات خاصة ومخصصة. دعونا نجعل كل لحظة لا تُنسى "
+        mainTitle: "الهدية هي تعبير بطريقة أخرى عن الحب",
+        mainDescription: "استكشف عالمًا رائعًا مع نوروفيليا، الذي يقدم نصائح للمناسبات والحفلات، ويصمم ويوصل الهدايا، ويصنع منتجات خاصة ومخصصة"
     },
     kr: {
         mainTitle: "선물은 사랑의 표현입니다",
