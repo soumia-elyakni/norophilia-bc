@@ -193,7 +193,7 @@ body {
 
 @media screen and (max-width: 660px) {
   .main-component {
-    padding-top: 250px;
+    padding-top: 12px;
   }
 
   .diff{
