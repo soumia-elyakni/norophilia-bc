@@ -6,17 +6,30 @@
 }
 
 .language-selector {
+  appearance: none;
   position: fixed;
   top: 3px;
   right: 3px;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.079);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
   font-size: 16px;
   padding: 4px;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.language-selector:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .language-selector .option {
-  background-color: transparent;
+  background-color: #1a1a1a;
+  color: white;
   padding: 0;
   margin: 0;
   padding-left: 1em;
