@@ -1,28 +1,28 @@
 // translations.js
 const Translations = {
     en: {
-      mainTitle: "A gift is an expression of love",
-      mainDescription: "Explore a fascinating world with Norophilia, which offers event advice, designs and delivers gifts, and manufactures special and personalized products. Let's make every moment unforgettable!"
+      mainTitle: "Celebrate bonds, not dates.",
+      mainDescription: "Welcome to Norophilia. We are crafting a unique digital experience to simplify gifting: no confusion, no wasted time, just the essential. Every gesture is a memory in the making."
     },
     fr: {
-      mainTitle: "Un cadeau c'est une expression d'amour",
-      mainDescription: "Explorez un monde fascinant avec Norophilia, qui offre des conseils pour les événements, conçoit et livre des cadeaux, et fabrique des produits spéciaux et personnalisés. Rendons chaque moment inoubliable !"
+      mainTitle: "Célébrez les liens, pas les dates.",
+      mainDescription: "Bienvenue dans l'univers Norophilia. Nous préparons une expérience digitale unique pour simplifier l'art d'offrir : plus de confusion, plus de perte de temps, juste l'essentiel. Chaque geste est un souvenir en devenir."
     },
     es: {
-      mainTitle: "Un regalo es una expresión de amor",
-      mainDescription: "¡Explora un mundo fascinante con Norophilia, que ofrece consejos para eventos, diseña y entrega regalos, y fabrica productos especiales y personalizados! ¡Hagamos que cada momento sea inolvidable!"
+      mainTitle: "Celebra los vínculos, no les fechas.",
+      mainDescription: "Bienvenidos al mundo fascinante de Norophilia. Estamos preparando una experiencia digital única para simplificar el arte de regalar: sin confusión ni pérdida de tiempo, solo lo esencial. Cada gesto es un recuerdo en potencia.!"
     },
     tr:{
-        mainTitle: "Hediye bir aşk ifadesidir",
-        mainDescription:"Norophilia ile büyüleyici bir dünyayı keşfedin! Etkinlikler için öneriler sunuyor, hediyeleri tasarlıyor ve teslim ediyor, özel ve kişiselleştirilmiş ürünler üretiyoruz. Her anı unutulmaz kılmak için haydi!"
+        mainTitle: "Tarihleri değil, bağları kutlayın.",
+        mainDescription:"Norophilia dünyasına hoş geldiniz. Hediyeleşme sanatını basitleştirmek için eşsiz bir dijital deneyim hazırlıyoruz: kafa karışıklığı yok, zaman kaybı yok, sadece özü. Her jest, filizlenen bir anıdır."
     },
     ar: {
-        mainTitle: "الهدية هي تعبير بطريقة أخرى عن الحب",
-        mainDescription: "استكشف عالمًا رائعًا مع نوروفيليا، الذي يقدم نصائح للمناسبات والحفلات، ويصمم ويوصل الهدايا، ويصنع منتجات خاصة ومخصصة"
+        mainTitle: "احتفلوا بالروابط، لا بالمواعيد",
+        mainDescription: "مرحبًا بكم في عالم نوروفيليا. نحن نجهز تجربة رقمية فريدة لتبسيط فن الإهداء: بلا حيرة، ولا هدر للوقت، فقط الجوهر. كل لفتة هي ذكرى قيد التكوين."
     },
     kr: {
-        mainTitle: "선물은 사랑의 표현입니다",
-        mainDescription:"Norophilia와 함께 놀라운 세계를 탐험하세요! 우리는 이벤트에 대한 조언을 제공하고, 선물을 디자인하고 배송하며, 특별하고 개인화된 제품을 제조합니다. 모든 순간을 잊지 못할 만들어 보죠!"
+        mainTitle: "날짜가 아닌, 인연을 기념하세요.",
+        mainDescription:"노로필리아의 세계에 오신 것을 환영합니다. 선물하는 과정을 단순화하기 위해 특별한 디지털 경험을 준비 중입니다. 혼란과 시간 낭비 없이 본질에만 집중하세요. 모든 진심은 추억이 됩니다."
     }
 
   };
