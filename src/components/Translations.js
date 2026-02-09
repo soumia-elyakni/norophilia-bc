@@ -1,24 +1,24 @@
 // translations.js
 const Translations = {
     en: {
-      mainTitle: "Celebrate bonds, not dates.",
-      mainDescription: "Welcome to Norophilia. We are crafting a unique digital experience to simplify gifting: no confusion, no wasted time, just the essential. Every gesture is a memory in the making."
+      mainTitle: "Celebrate connections, not the calendar.",
+      mainDescription: "Welcome to the world of Norophilia. We are crafting a unique digital experience to redefine the art of gifting: no confusion, no wasted time, just the essence. Every gesture is a memory in the making."
     },
     fr: {
       mainTitle: "Célébrez les liens, pas les dates.",
       mainDescription: "Bienvenue dans l'univers Norophilia. Nous préparons une expérience digitale unique pour simplifier l'art d'offrir : plus de confusion, plus de perte de temps, juste l'essentiel. Chaque geste est un souvenir en devenir."
     },
     es: {
-      mainTitle: "Celebra los vínculos, no les fechas.",
-      mainDescription: "Bienvenidos al mundo fascinante de Norophilia. Estamos preparando una experiencia digital única para simplificar el arte de regalar: sin confusión ni pérdida de tiempo, solo lo esencial. Cada gesto es un recuerdo en potencia.!"
+      mainTitle: "Celebra los lazos, no el calendario.",
+      mainDescription: "Bienvenido al universo Norophilia. Preparamos una experiencia digital única para simplificar el arte de regalar: sin confusiones ni pérdidas de tiempo, solo lo esencial. Cada detalle es un recuerdo en camino."
     },
     tr:{
-        mainTitle: "Tarihleri değil, bağları kutlayın.",
+        mainTitle: "Günü değil, gönül bağlarını yüceltin.",
         mainDescription:"Norophilia dünyasına hoş geldiniz. Hediyeleşme sanatını basitleştirmek için eşsiz bir dijital deneyim hazırlıyoruz: kafa karışıklığı yok, zaman kaybı yok, sadece özü. Her jest, filizlenen bir anıdır."
     },
     ar: {
-        mainTitle: "احتفلوا بالروابط، لا بالمواعيد",
-        mainDescription: "مرحبًا بكم في عالم نوروفيليا. نحن نجهز تجربة رقمية فريدة لتبسيط فن الإهداء: بلا حيرة، ولا هدر للوقت، فقط الجوهر. كل لفتة هي ذكرى قيد التكوين."
+        mainTitle: "لأنَّ المودّة لا تنتظرُ موعداً",
+        mainDescription: "مرحباً بكم في عالم نوروفيليا. نصيغ لكم تجربة رقمية فريدة تمنح فن الإهداء بساطته ورقيّه؛ بعيداً عن الحيرة وضياع الوقت، لنركز على الجوهر. فكل لفتة هي ذكرى تولد من جديد."
     },
     kr: {
         mainTitle: "날짜가 아닌, 인연을 기념하세요.",
