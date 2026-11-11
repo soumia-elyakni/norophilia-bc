@@ -6,9 +6,9 @@ const Main = () => {
   const { language } = useContext(LanguageContext);
   const checkLangue = () => {
     if (language === "ar" || language === "kr"){
-      return "diff"; // Ajoutez la classe rtl si la langue est arabe ou coréenne
+      return "diff";                                  // Ajoutez la classe rtl si la langue est arabe ou coréenne
     }
-    return ""; // Retourne une chaîne vide si la condition n'est pas remplie
+    return "";                                        // Retourne une chaîne vide si la condition n'est pas remplie
   }
 
   return (
