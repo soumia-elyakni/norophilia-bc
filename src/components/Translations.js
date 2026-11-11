@@ -35,5 +35,5 @@ const Translations = {
       "선물을 더 쉽고 의미 있게 만드는 특별한 디지털 경험을 준비하고 있습니다. 복잡함과 시간 낭비 없이, 오직 본질에 집중하세요. 진심 어린 모든 순간은 추억이 됩니다."
   }
 };
-
 export default Translations;
+
